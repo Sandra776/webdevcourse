@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTER</title>
+</head>
+<body>
+<form method="POST"><br>
+	FIRST NAME: <input type="text" name="firstname"><br>
+	LAST NAME: <input type="text" name="lastname" ><br>
+	EMAIL: <input type="email" name="email"required><br>
+	BIRTHDAY: <input type="date" name="birthday"required><br>
+	GENDER:<br>
+	<input type="radio" name="gender" value="male">MALE
+    <input type="radio" name="gender" value="female">FEMALE
+    <input type="radio" name="gender" value="other">OTHER<br>
+    
+    PETS:<br>
+    <input type="checkbox" name="cats">CATS<br>
+    <input type="checkbox" name="dog">DOGS<br>
+     
+    CARS:<br>
+     <select name="cars" >
+     	<option value="audi" name="audi">Audi</option>
+     	<option value="volvo" name="volvo">volvo</option>
+     </select><br>
+
+     PASSWORD: <input type="password" min="5" name="password"><br>
+	<input type="submit" value="REGISTER">
+	<input type="reset">
+</form>
+</body>
+</html>
