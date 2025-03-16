@@ -1,4 +1,7 @@
-h1{
+*{
+	text-align:left;
+}
+h1 , p:hover{
 	color: white;
 	text-align: center;
 	border: 5px solid rgba(100,50,300, 0.5);
@@ -7,8 +10,9 @@ h1{
 
 body{
 	background-color: black;
-	background-image: url("81993.jpg");
+	background-image: url("https://img.freepik.com/free-vector/gradient-top-view-laptop-background_52683-6291.jpg?t=st=1742079848~exp=1742083448~hmac=36c1ca5b34e6742403a8f85f203eb35c3bcb0674be19c974d07161a04e40d8be&w=996");
     background-size: cover;
+	margin:0px;
 }
 
 li{
@@ -17,9 +21,29 @@ li{
 	color: rgba(100,50,300,0.5);
 }
 
+p{
+	line-height: 20px;
+	font-style: italic;
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+img{
+	float: right;
+}
+footer{
+	clear:both;
+}
 .webtext{
 	background-color: rgba(300,50,100, 0.2);
 	border: solid rgba(100,0,0);
 	text-align: center;
 	color: white;
+	display: inline-block;
+	margin:10px 40px;
+	padding:50px;
+}
+nav{
+	background-color:white;
+	padding:10px;
+	margin: 0px 0px;
 }

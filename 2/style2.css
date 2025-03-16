@@ -1,0 +1,30 @@
+﻿h2{
+    color: aliceblue;
+    box-shadow: 10px 10px 20px black;
+    font-size: 50px;
+    width: 200px;
+    margin: 20px 10px;
+}
+
+.boxmodel{
+    border: solid 5px;
+    background-color: aliceblue;
+    padding: 100px;
+    margin: 0px 20px;
+    width: 20px;
+    height: 5em;
+    transition: 0.5s;
+}
+
+.container{
+    margin: 0px 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.boxmodel:hover{
+    rotate: 20deg;
+    transform: scale(1.1);
+}
+/*css minify*/
